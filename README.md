@@ -2830,7 +2830,7 @@ param_grid = [
 grid = GridSearchCV(
     pipe_final,
     param_grid,
-    cv=5,
+    cv=6,
     scoring='roc_auc',
 
     n_jobs=-1
